@@ -1,0 +1,342 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* my_academy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-04 07:55+0000\n"
+"PO-Revision-Date: 2019-09-04 07:55+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.view_openacad_session_kanban
+msgid "<br/>\n"
+"                                Start date:"
+msgstr "Date de début"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.view_openacad_session_kanban
+msgid "<br/>\n"
+"                                duration:"
+msgstr "Durée"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.view_openacad_session_kanban
+msgid "<i class=\"fa fa-bars fa-lg\" title=\"Manage\" aria-label=\"Manage\"/>"
+msgstr ""
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: my_academy
+#: model:ir.actions.act_window,name:my_academy.launch_session_wizard
+#: model_terms:ir.ui.view,arch_db:my_academy.wizard_form_view
+msgid "Add Attendees"
+msgstr "Ajout de participants"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_res_partner__session_ids
+#: model:ir.model.fields,field_description:my_academy.field_res_users__session_ids
+msgid "Attended Sessions"
+msgstr "Sessions participées"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_add_attendees_wizard__attendee_ids
+#: model:ir.model.fields,field_description:my_academy.field_models_session__attendee_ids
+msgid "Attendees"
+msgstr "Participants"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__attendees_count
+msgid "Attendees count"
+msgstr "Nombre de participants"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.wizard_form_view
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__color
+msgid "Color"
+msgstr "Couleur"
+
+#. module: my_academy
+#: model:ir.ui.menu,name:my_academy.configuration_menu
+msgid "Configuration"
+msgstr "Configuration"
+
+#. module: my_academy
+#: model:ir.model,name:my_academy.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: my_academy
+#: model:ir.actions.act_window,name:my_academy.contact_cat_list_action
+#: model:ir.ui.menu,name:my_academy.contact_cat_menu
+msgid "Contact Tags"
+msgstr "Tags de contact"
+
+#. module: my_academy
+#: model:ir.actions.act_window,name:my_academy.contact_list_action
+#: model:ir.ui.menu,name:my_academy.contact_menu
+msgid "Contacts"
+msgstr "Contacts"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__course_id
+msgid "Course"
+msgstr "Cours"
+
+#. module: my_academy
+#: model:ir.actions.act_window,name:my_academy.course_list_action
+#: model:ir.ui.menu,name:my_academy.courses_menu
+msgid "Courses"
+msgstr "Cours"
+
+#. module: my_academy
+#: model_terms:ir.actions.act_window,help:my_academy.course_list_action
+msgid "Create the first course"
+msgstr "Créer le premier cours"
+
+#. module: my_academy
+#: model_terms:ir.actions.act_window,help:my_academy.session_list_action
+msgid "Create the first session"
+msgstr "Créer la première session"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_add_attendees_wizard__create_uid
+#: model:ir.model.fields,field_description:my_academy.field_models_course__create_uid
+#: model:ir.model.fields,field_description:my_academy.field_models_session__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_add_attendees_wizard__create_date
+#: model:ir.model.fields,field_description:my_academy.field_models_course__create_date
+#: model:ir.model.fields,field_description:my_academy.field_models_session__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.view_openacad_session_kanban
+msgid "Delete"
+msgstr "Supprimer"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_course__description
+msgid "Description"
+msgstr "Description"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_add_attendees_wizard__display_name
+#: model:ir.model.fields,field_description:my_academy.field_models_course__display_name
+#: model:ir.model.fields,field_description:my_academy.field_models_session__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__duration
+msgid "Duration"
+msgstr "Durée"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__hours
+msgid "Duration (hours)"
+msgstr "Durée (heures)"
+
+#. module: my_academy
+#: model:ir.model.fields,help:my_academy.field_models_session__duration
+msgid "Duration in days"
+msgstr "Durée en jours"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__end_date
+msgid "End date"
+msgstr "Date de fin"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.course_search_view
+msgid "Group By"
+msgstr "Regrouper par"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_add_attendees_wizard__id
+#: model:ir.model.fields,field_description:my_academy.field_models_course__id
+#: model:ir.model.fields,field_description:my_academy.field_models_session__id
+msgid "ID"
+msgstr "ID"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__instructor_id
+#: model:ir.model.fields,field_description:my_academy.field_res_partner__instructor
+#: model:ir.model.fields,field_description:my_academy.field_res_users__instructor
+msgid "Instructor"
+msgstr "Instructeur"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_add_attendees_wizard____last_update
+#: model:ir.model.fields,field_description:my_academy.field_models_course____last_update
+#: model:ir.model.fields,field_description:my_academy.field_models_session____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_add_attendees_wizard__write_uid
+#: model:ir.model.fields,field_description:my_academy.field_models_course__write_uid
+#: model:ir.model.fields,field_description:my_academy.field_models_session__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_add_attendees_wizard__write_date
+#: model:ir.model.fields,field_description:my_academy.field_models_course__write_date
+#: model:ir.model.fields,field_description:my_academy.field_models_session__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.course_search_view
+msgid "My Courses"
+msgstr "Mes cours"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__seats
+msgid "Number of seats"
+msgstr "Nombre de sièges"
+
+#. module: my_academy
+#: model:ir.ui.menu,name:my_academy.main_openacademy_menu
+#: model:ir.ui.menu,name:my_academy.openacademy_menu
+msgid "Open Academy"
+msgstr "Open Academy"
+
+#. module: my_academy
+#: model:res.groups,name:my_academy.group_manager
+msgid "OpenAcademy / Manager"
+msgstr "OpenAcademy / Manager"
+
+#. module: my_academy
+#: model:ir.model,name:my_academy.model_models_course
+msgid "OpenAcademy Courses"
+msgstr "Cours OpenAcademy"
+
+#. module: my_academy
+#: model:ir.model,name:my_academy.model_models_session
+msgid "OpenAcademy Sessions"
+msgstr "Sessions OpenAcademy"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.session_graph_view
+msgid "Participations by Courses"
+msgstr "Participations par cours"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_course__responsible_id
+#: model_terms:ir.ui.view,arch_db:my_academy.course_search_view
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_course__session_ids
+msgid "Session"
+msgstr "Session"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.session_calendar_view
+msgid "Session Calendar"
+msgstr "Calendrier de sessions"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.session_form_view
+msgid "Session Form"
+msgstr "Formulaire de session"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.session_gantt_view
+msgid "Session Gantt"
+msgstr "Gantt"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.session_tree_view
+msgid "Session Tree"
+msgstr "Vue en arbre"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__name
+msgid "Session name"
+msgstr "Nom de session"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.view_openacad_session_kanban
+msgid "Session name:"
+msgstr "Nom de session"
+
+#. module: my_academy
+#: model:ir.actions.act_window,name:my_academy.session_list_action
+#: model:ir.model.fields,field_description:my_academy.field_add_attendees_wizard__session_ids
+#: model:ir.ui.menu,name:my_academy.session_menu
+#: model_terms:ir.ui.view,arch_db:my_academy.partner_instructor_form_view
+msgid "Sessions"
+msgstr "Sessions"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__start_date
+msgid "Start date"
+msgstr "Date de début"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.wizard_form_view
+msgid "Subscribe"
+msgstr "S'abonner"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_session__taken_seats
+msgid "Taken seats"
+msgstr "Sièges pris"
+
+#. module: my_academy
+#: model:res.partner.category,name:my_academy.teacher1
+msgid "Teacher / Level 1"
+msgstr "Enseignant / Niveau 1"
+
+#. module: my_academy
+#: model:res.partner.category,name:my_academy.teacher2
+msgid "Teacher / Level 2"
+msgstr "Enseignant / Niveau 2"
+
+#. module: my_academy
+#: sql_constraint:models.course:0
+msgid "The course title should be unique!"
+msgstr "Le titre du cours doit être unique!"
+
+#. module: my_academy
+#: sql_constraint:models.course:0
+msgid "The course title should not be in the description"
+msgstr "L'intitulé du cours ne doit pas être dans la description"
+
+#. module: my_academy
+#: model:ir.model.fields,field_description:my_academy.field_models_course__name
+msgid "Title"
+msgstr "Titre"
+
+#. module: my_academy
+#: model:ir.model,name:my_academy.model_add_attendees_wizard
+#: model:ir.model,name:my_academy.model_models_wizard
+msgid "Wizard: Quick Registration of Attendees to Sessions"
+msgstr "Wizard : Enregistrement rapide des participants aux sessions"
+
+#. module: my_academy
+#: model_terms:ir.ui.view,arch_db:my_academy.wizard_form_view
+msgid "or"
+msgstr "ou"
+
